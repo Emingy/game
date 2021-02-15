@@ -1,0 +1,57 @@
+@import "variables";
+
+header{
+    background-color: #{$header-back-color};
+    width: 100%;
+    height: 100px;
+    display: flex;
+    .App-header-logo{
+      margin: 29px 1136px 0px 40px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 42px;
+      display: block;
+      color: #{$font-color__three};
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;   
+      user-select: none; 
+      text-decoration: none;
+    }
+    div{
+      display: flex;
+      a{
+        display: block;
+        margin: 36px 52px 0px 0px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        color: #{$font-color__one};
+        text-decoration: none;
+      }
+      .active{
+        color: #{$font-color__four} !important;
+      }
+      button{
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        box-sizing: border-box;
+        border-radius: 20px;
+        width: 135px;
+        height: 60px;
+        margin-top: 20px;
+        background-color: transparent;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        color: #{$font-color__one};
+      }
+    }
+  }
